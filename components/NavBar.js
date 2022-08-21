@@ -50,7 +50,7 @@ export default function NavBar() {
                 onExited={onCollapseExited}
                 id={styles.space}
             >
-                <Nav navbar className={styles.nav}>
+                {/* <Nav navbar className={styles.nav}>
                     <NavItem className={styles.items}>
                         <div className={styles.dropdown}>
                             <button className={styles.dropbtn}>배우기 <i>▼</i>
@@ -103,7 +103,7 @@ export default function NavBar() {
                             </div>
                         </div>
                     </NavItem >
-                </Nav>
+                </Nav> */}
             </Collapse>
 
         </Navbar>
